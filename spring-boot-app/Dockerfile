@@ -5,7 +5,7 @@ FROM eclipse-temurin
 #FROM eclipse-temurin:11-jre-alpine
 
 # Simply the artifact path
-ARG artifact=target/spring-boot-web.jar
+ARG artifact=target/demo-0.0.1-SNAPSHOT.jar
 
 WORKDIR /opt/app
 
